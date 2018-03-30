@@ -1,0 +1,23 @@
+{
+  "name": "koamovie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisChenSZ/koaMovie.git"
+  },
+  "author": "chris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisChenSZ/koaMovie/issues"
+  },
+  "homepage": "https://github.com/ChrisChenSZ/koaMovie#readme",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}
