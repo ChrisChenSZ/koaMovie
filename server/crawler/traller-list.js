@@ -43,7 +43,9 @@ const sleep = time => new Promise(resolve => {
             return links
         })
         brower.close()
-
-        console.log(result)
+        
+        // console.log(result)
+        process.send(result)
+        process.exit(0)
     }
 )()
